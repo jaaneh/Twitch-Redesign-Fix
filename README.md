@@ -13,3 +13,4 @@ Install the style: https://userstyles.org/styles/175738/fix-twitch-redesign-2019
 
 ## Preview of Current Code
 ![Twitch](https://jaany.xyz/i/l0epa.jpg)
+![Twitch](https://jaany.xyz/i/3idni.png)
