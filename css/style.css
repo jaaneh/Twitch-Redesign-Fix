@@ -33,7 +33,3 @@ h2[data-a-target="stream-title"] {
 .tw-textarea {
     background-color: #212126 !important;
 }
-
-.tw-root--hover .tw-hover-accent-effect:hover .tw-hover-accent-effect__corner--top {
-    transform: none !important;
-}
