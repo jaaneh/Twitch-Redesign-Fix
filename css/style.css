@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica, sans-serif !important;
+}
+body,
+.tw-c-background-base,
+.tw-root--theme-dark .side-nav__overlay-wrapper, .side-nav__overlay-wrapper,
+.tw-root--theme-dark .directory-header-new__banner-cover,
+.tw-root--theme-dark .channel-header, .channel-header,
+.tw-root--theme-dark .chat-room,
+.tw-root--theme-dark .channel-root__right-column {
+    background: #0F0E11 !important;
+} 
+.tw-border-b {
+    border-bottom: 1px solid #252525 !important;
+}
+.tw-border-l {
+    border-left: 1px solid #252525 !important;
+}
+.tw-elevation-1 {
+    box-shadow: none !important;
+    border-bottom: 1px solid #252525 !important;
+}
+h1 {
+    font-size: 4.5rem !important;
+}
+.tw-semibold, .tw-strong {
+    font-weight: 300!important;
+}
+
+h2[data-a-target="stream-title"] {
+    font-weight: 300 !important;
+}
+.tw-textarea {
+    background-color: #212126 !important;
+}
+
+.tw-root--hover .tw-hover-accent-effect:hover .tw-hover-accent-effect__corner--top {
+    transform: none !important;
+}
