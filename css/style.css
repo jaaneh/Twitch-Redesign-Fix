@@ -1,35 +1,44 @@
 :root {
-    --color-background-body: #0F0E11;
-    --color-border-input: #212126;
-    --color-border-base: #252525;
+    --color-background-body: #0F0E11 !important;
+    --color-border-input: #212126 !important;
+    --color-border-base: #252525 !important;
+}
+
+.tw-root--theme-dark {
+    --color-background-interactable-alpha-hover: #212126 !important;
+    --color-background-interactable-alpha-active: #212126 !important;
 }
 
 body {
     font-family: Helvetica, sans-serif !important;
 }
-.tw-c-background-base,
+
 .tw-root--theme-dark .side-nav__overlay-wrapper,
 .side-nav__overlay-wrapper,
 .tw-root--theme-dark .directory-header-new__banner-cover,
 .tw-root--theme-dark .channel-header,
+.tw-root--theme-dark body,
+.tw-c-background-base,
+.tw-root--theme-dark .clips-top-nav-user,
 .channel-header {
     background: #0F0E11 !important;
 }
+
 .tw-elevation-1 {
     box-shadow: none !important;
     border-bottom: 1px solid #252525 !important;
 }
+
 h1 {
     font-size: 4.5rem !important;
 }
+
 .tw-semibold,
-.tw-strong {
+.tw-strong,
+h2[data-a-target="stream-title"] {
     font-weight: 300!important;
 }
 
-h2[data-a-target="stream-title"] {
-    font-weight: 300 !important;
-}
 .tw-textarea,
 .tw-input--large {
     background-color: #212126 !important;
