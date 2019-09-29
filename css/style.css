@@ -2,7 +2,11 @@
     --color-background-body: #0F0E11 !important;
     --color-border-input: #212126 !important;
     --color-border-base: #252525 !important;
+    --color-background-accent: #1d2537 !important;
     --color-background-accent-alt-2: #1d2537 !important;
+    --color-background-input: #212126 !important;
+    --color-background-alt: #0F0E11 !important;
+    --color-background-alt-2: #212126 !important;
 }
 
 .tw-root--theme-dark {
@@ -12,6 +16,15 @@
 
 body {
     font-family: Helvetica, sans-serif !important;
+}
+
+.tw-root--theme-dark .channel-root__right-column,
+.tw-root--theme-dark .chat-room {
+    background: var(--color-background-body);
+}
+
+div.tw-absolute.tw-block.tw-bottom-0.tw-left-0.tw-mg-r-1.whispers.whispers--right-column-expanded-beside > div:nth-child(2) > div > div > div > button {
+    background-color: var(--color-background-alt-2) !important;
 }
 
 .tw-root--theme-dark .side-nav__overlay-wrapper,
@@ -38,9 +51,4 @@ h1 {
 .tw-strong,
 h2[data-a-target="stream-title"] {
     font-weight: 300!important;
-}
-
-.tw-textarea,
-.tw-input--large {
-    background-color: #212126 !important;
 }
