@@ -23,6 +23,15 @@ body {
     background: var(--color-background-body);
 }
 
+.tw-absolute.tw-hover-accent-effect__corner.tw-hover-accent-effect__corner--top.tw-left-0.tw-top-0,
+.tw-absolute.tw-bottom-0.tw-hover-accent-effect__corner.tw-hover-accent-effect__corner--bottom.tw-right-0 {
+    display: none;
+}
+
+.tw-root--hover .tw-hover-accent-effect:hover .tw-hover-accent-effect__children {
+    transform: none;
+}
+
 div.tw-absolute.tw-block.tw-bottom-0.tw-left-0.tw-mg-r-1.whispers.whispers--right-column-expanded-beside > div:nth-child(2) > div > div > div > button {
     background-color: var(--color-background-alt-2) !important;
 }
