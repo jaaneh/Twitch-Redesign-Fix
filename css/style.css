@@ -36,6 +36,10 @@ div.tw-absolute.tw-block.tw-bottom-0.tw-left-0.tw-mg-r-1.whispers.whispers--righ
     background-color: var(--color-background-alt-2) !important;
 }
 
+.tw-c-background-alt-2 {
+    background-color: var(--color-background-alt)!important;
+}
+
 .tw-root--theme-dark .side-nav__overlay-wrapper,
 .side-nav__overlay-wrapper,
 .tw-root--theme-dark .directory-header-new__banner-cover,
