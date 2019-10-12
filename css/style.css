@@ -5,6 +5,7 @@
     --color-background-accent: #1d2537 !important;
     --color-background-accent-alt-2: #1d2537 !important;
     --color-background-input: #212126 !important;
+    --color-background-input-focus: #212126 !important;
     --color-background-alt: #0F0E11 !important;
     --color-background-alt-2: #212126 !important;
 }
@@ -23,9 +24,18 @@ body {
     background: var(--color-background-body);
 }
 
+.tw-root--theme-dark .chat-viewers__pane {
+    background: var(--color-background-body);
+}
+
 .tw-absolute.tw-hover-accent-effect__corner.tw-hover-accent-effect__corner--top.tw-left-0.tw-top-0,
 .tw-absolute.tw-bottom-0.tw-hover-accent-effect__corner.tw-hover-accent-effect__corner--bottom.tw-right-0 {
     display: none;
+}
+
+div.channel-info-bar__content-top.tw-flex.tw-flex-wrap.tw-justify-content-between.tw-mg-b-05.tw-sm-flex-nowrap > div.tw-flex-grow-1.tw-flex-shrink-1.tw-overflow-hidden.tw-pd-r-2 {
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
 }
 
 .tw-root--hover .tw-hover-accent-effect:hover .tw-hover-accent-effect__children {
