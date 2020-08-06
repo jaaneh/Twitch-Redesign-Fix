@@ -12,5 +12,5 @@ Opera: https://addons.opera.com/en/extensions/details/stylus/
 Install the style: https://userstyles.org/styles/175738/fix-twitch-redesign-2019  
 
 ## Preview of Current Code
-![Twitch](https://jaany.xyz/i/l0epa.jpg)
-![Twitch](https://jaany.xyz/i/3idni.png)
+![Twitch](https://userstyles.org/style_screenshots/175738_additional_34476.jpeg?r=1596758263)
+![Twitch](https://userstyles.org/style_screenshots/175738_additional_34477.jpeg?r=1596758263)
