@@ -10,6 +10,11 @@
     --color-background-alt-2: #212126 !important;
 }
 
+::selection {
+    background-color: #772ce8;
+    color: #fff;
+}
+
 .tw-root--theme-dark {
     --color-background-interactable-alpha-hover: #212126 !important;
     --color-background-interactable-alpha-active: #212126 !important;
