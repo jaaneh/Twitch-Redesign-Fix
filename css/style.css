@@ -80,3 +80,8 @@ h1 {
 h2[data-a-target="stream-title"] {
     font-weight: 300!important;
 }
+
+.chat-line__message:focus-within .chat-line__message-highlight, .chat-line__message:focus .chat-line__message-highlight, .chat-line__message:hover .chat-line__message-highlight,
+.ffz-notice-line:focus-within .chat-line__message-highlight, .ffz-notice-line:hover .chat-line__message-highlight, .ffz-notice-line:focus .chat-line__message-highlight {
+    background: transparent;
+}
